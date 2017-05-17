@@ -18,42 +18,42 @@
     },
     "SL_Firefox_Current": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "firefox", "-v", "latest", "--no-connect", "-u"],
+      "args": ["-b", "firefox", "-v", "latest", "-u"],
       "protocol": "browser"
     },
     "SL_Safari_Current": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "safari", "-v", "9", "--no-connect", "-u"],
+      "args": ["-b", "safari", "-v", "9", "-u"],
       "protocol": "browser"
     },
     "SL_Safari_Last": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "safari", "-v", "8", "--no-connect", "-u"],
+      "args": ["-b", "safari", "-v", "8", "-u"],
       "protocol": "browser"
     },
     "SL_MS_Edge": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "microsoftedge", "--no-connect", "-u"],
+      "args": ["-b", "microsoftedge", "-u"],
       "protocol": "browser"
     },
     "SL_IE_11": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "internet explorer", "-v", "11", "--no-connect", "-u"],
+      "args": ["-b", "internet explorer", "-v", "11", "-u"],
       "protocol": "browser"
     },
     "SL_IE_10": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "internet explorer", "-v", "10", "--no-connect", "-u"],
+      "args": ["-b", "internet explorer", "-v", "10", "-u"],
       "protocol": "browser"
     },
     "SL_IE_9": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "internet explorer", "-v", "9", "--no-connect", "-u"],
+      "args": ["-b", "internet explorer", "-v", "9", "-u"],
       "protocol": "browser"
     },
     "SL_IE_8": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "internet explorer", "-v", "8", "--no-connect", "-u"],
+      "args": ["-b", "internet explorer", "-v", "8", "-u"],
       "protocol": "browser"
     }
   },
