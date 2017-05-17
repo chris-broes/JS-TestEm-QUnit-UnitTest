@@ -13,7 +13,7 @@
   "launchers": {
     "SL_Chrome_Current": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "chrome", "-u"],
+      "args": ["-b", "chrome", "--no-connect", "--attach", "-u"],
       "protocol": "browser"
     },
     "SL_Firefox_Current": {
