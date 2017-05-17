@@ -13,47 +13,47 @@
   "launchers": {
     "SL_Chrome_Current": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "chrome", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "chrome", "-u"],
       "protocol": "browser"
     },
     "SL_Firefox_Current": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "firefox", "-v", "latest", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "firefox", "-v", "latest", "--no-connect", "-u"],
       "protocol": "browser"
     },
     "SL_Safari_Current": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "safari", "-v", "9", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "safari", "-v", "9", "--no-connect", "-u"],
       "protocol": "browser"
     },
     "SL_Safari_Last": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "safari", "-v", "8", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "safari", "-v", "8", "--no-connect", "-u"],
       "protocol": "browser"
     },
     "SL_MS_Edge": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "microsoftedge", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "microsoftedge", "--no-connect", "-u"],
       "protocol": "browser"
     },
     "SL_IE_11": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "internet explorer", "-v", "11", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "internet explorer", "-v", "11", "--no-connect", "-u"],
       "protocol": "browser"
     },
     "SL_IE_10": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "internet explorer", "-v", "10", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "internet explorer", "-v", "10", "--no-connect", "-u"],
       "protocol": "browser"
     },
     "SL_IE_9": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "internet explorer", "-v", "9", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "internet explorer", "-v", "9", "--no-connect", "-u"],
       "protocol": "browser"
     },
     "SL_IE_8": {
       "exe": "../../node_modules/.bin/saucie",
-      "args": ["-b", "internet explorer", "-v", "8", "--no-connect", "--attach", "-u"],
+      "args": ["-b", "internet explorer", "-v", "8", "--no-connect", "-u"],
       "protocol": "browser"
     }
   },
